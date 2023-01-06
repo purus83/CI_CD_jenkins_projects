@@ -1,13 +1,13 @@
-package Jenkins_project.Project;
+package jenkins_project1.Project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimplilearnProjectApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimplilearnProjectApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

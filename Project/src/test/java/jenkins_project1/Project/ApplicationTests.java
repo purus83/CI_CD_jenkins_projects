@@ -1,10 +1,10 @@
-package Jenkins_project.Project;
+package jenkins_project1.Project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimplilearnProjectApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
