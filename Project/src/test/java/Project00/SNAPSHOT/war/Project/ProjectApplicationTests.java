@@ -1,10 +1,10 @@
-package jenkins_project1.Project;
+package Project00.SNAPSHOT.war.Project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class ProjectApplicationTests {
 
 	@Test
 	void contextLoads() {

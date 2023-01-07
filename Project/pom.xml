@@ -8,12 +8,12 @@
 		<version>3.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>jenkins_project1</groupId>
+	<groupId>Project-0.0.1-SNAPSHOT.war</groupId>
 	<artifactId>Project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>CI/CD Pipeline with Jenkins</name>
-	<description>CI/CD Pipeline with Jenkins</description>
+	<name>Project</name>
+	<description>Demo project for Jenkins Pieline</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
