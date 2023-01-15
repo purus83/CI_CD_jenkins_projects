@@ -1,0 +1,22 @@
+pipeline{
+    
+    agent {
+        node 'agent1'
+    }
+    
+    tools {
+        git 'Default'
+        maven 'apache-maven-3.6.3'
+        jdk   'jdk1.8.0_202'
+    }
+    
+    stages{
+        stage('validate'){
+            steps{
+             bat 'mvn --version'  
+             bat 'git --version'
+            }
+            
+        }
+    }
+}
