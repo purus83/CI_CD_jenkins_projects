@@ -1,13 +1,13 @@
-package Project00.SNAPSHOT.war.Project;
+package simplilearn.mvnproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectApplication {
+public class MvnProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectApplication.class, args);
+		SpringApplication.run(MvnProjectApplication.class, args);
 	}
 
 }
