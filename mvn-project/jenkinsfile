@@ -13,7 +13,9 @@ pipeline{
     stages{
         stage('validate'){
             steps{
-	    	bat 'cd mvn-project; mvn validate'
+	    	dir('mvn-project'){
+	    		bat 'mvn validate'
+			}
             }
             
         }
