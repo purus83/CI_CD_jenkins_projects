@@ -13,8 +13,7 @@ pipeline{
     stages{
         stage('validate'){
             steps{
-             bat 'mvn --version'  
-             bat 'git --version'
+	    	bat 'mvn validate'
             }
             
         }
