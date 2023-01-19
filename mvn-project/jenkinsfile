@@ -1,9 +1,5 @@
 pipeline{
-    
-    agent {
-        node 'agent1'
-    }
-    
+        
     tools {
         maven 'apache-maven-3.6.3'
         jdk   'openjdk1.11.0'
